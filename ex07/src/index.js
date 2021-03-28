@@ -7,12 +7,9 @@ const range = {
 
 };
 
-
-middle = (range) => {
-    middle = (range) = (range.max + range.min) / 2.00;
-
-return range;
-}
+const middle = ({max, min}) => {
+    return (max + min) / 2.0;
+};
 
 console.log(middle(range));
 
